@@ -23,8 +23,9 @@ COMMIT_HASH=$4
 FEEDS_CONF="feeds.conf.default"
 GOLANG_REPO="https://github.com/sbwml/packages_lang_golang"
 GOLANG_BRANCH="24.x"
-THEME_SET="argon"
-LAN_ADDR="192.168.1.1"
+#THEME_SET="argon"
+THEME_SET="bootstrap"
+LAN_ADDR="192.168.2.1"
 
 clone_repo() {
     if [[ ! -d $BUILD_DIR ]]; then
