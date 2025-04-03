@@ -34,34 +34,34 @@ EOF
 }
 
 jdc_ax1800_pro_wifi_cfg() {
-    configure_wifi 0 149 HE80 20 'Jdc_AX1800PRO_5G' '12345678'
-    configure_wifi 1 1 HE20 20 'Jdc_AX1800PRO' '12345678'
+    configure_wifi 0 149 HE80 20 'Jdc_AX1800PRO_5G' 'songweiqi'
+    configure_wifi 1 1 HE20 20 'Jdc_AX1800PRO' 'songweiqi'
 }
 
 jdc_ax6600_wifi_cfg() {
-    configure_wifi 0 149 HE80 22 'Jdc_AX6600_5G1' '12345678'
-    configure_wifi 1 1 HE20 22 'Jdc_AX6600' '12345678'
-    configure_wifi 2 44 HE160 23 'Jdc_AX6600_5G2' '12345678'
+    configure_wifi 0 149 HE80 22 'Jdc_AX6600_5G1' 'songweiqi'
+    configure_wifi 1 1 HE20 22 'Jdc_AX6600' 'songweiqi'
+    configure_wifi 2 44 HE160 23 'Jdc_AX6600_5G2' 'songweiqi'
 }
 
 redmi_ax5_wifi_cfg() {
-    configure_wifi 0 149 HE80 20 'Redmi_AX5_5G' '12345678'
-    configure_wifi 1 1 HE20 20 'Redmi_AX5' '12345678'
+    configure_wifi 0 149 HE80 20 'Redmi_AX5_5G' 'songweiqi'
+    configure_wifi 1 1 HE20 20 'Redmi_AX5' 'songweiqi'
 }
 
 aliyun_ap8220_wifi_cfg() {
-    configure_wifi 0 149 HE80 26 'Aliyun_AP8220_5G' '12345678'
-    configure_wifi 1 1 HE20 23 'Aliyun_AP8220' '12345678'
+    configure_wifi 0 149 HE80 26 'Aliyun_AP8220_5G' 'songweiqi'
+    configure_wifi 1 1 HE20 23 'Aliyun_AP8220' 'songweiqi'
 }
 
 cmcc_rax3000m_wifi_cfg() {
-    configure_wifi 0 1 HE20 23 'CMCC_RAX3000M' '12345678'
-    configure_wifi 1 44 HE160 25 'CMCC_RAX3000M_5G' '12345678'
+    configure_wifi 0 1 HE20 23 'CMCC_RAX3000M' 'songweiqi'
+    configure_wifi 1 44 HE160 25 'CMCC_RAX3000M_5G' 'songweiqi'
 }
 
 redmi_ax6_wifi_cfg() {
-    configure_wifi 0 149 HE80 22 'Redmi_AX6_5G' '12345678'
-    configure_wifi 1 1 HE20 21 'Redmi_AX6' '12345678'
+    configure_wifi 0 149 HE80 22 'Redmi_AX6_5G' 'songweiqi'
+    configure_wifi 1 1 HE20 21 'Redmi_AX6' 'songweiqi'
 }
 
 case "${board_name}" in
